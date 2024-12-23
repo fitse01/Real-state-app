@@ -7,7 +7,7 @@ const Property = () => {
 
   return (
     <View>
-      <Text>Property {id}</Text>
+      <Text style={{color:"white"}}>Property {id}</Text>
     </View>
   )
 }
