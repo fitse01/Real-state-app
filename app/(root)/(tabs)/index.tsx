@@ -9,11 +9,11 @@ export default function index() {
         justifyContent:"center" , 
         alignItems:"center" ,
         }}>
-          <Text className='font-bold text-3xl color-white  my-10'>Welcome to ReState</Text>
-          <Link href="/sign-in" style={{color:"white"}}> Sign In </Link>
-          <Link href="/profile" style={{color:"white"}}> profile </Link>
-          <Link href="/explore" style={{color:"white"}}> explore </Link>
-          <Link href="/properties/[id]" style={{color:"white"}}>Property </Link>
+          <Text className='font-bold text-3xl  my-10 font-rubik'>Welcome to ReState</Text>
+          <Link href="/sign-in" > Sign In </Link>
+          <Link href="/profile" > profile </Link>
+          <Link href="/explore" > explore </Link>
+          <Link href="/properties/[id]" >Property </Link>
     </View>
   )
 }
